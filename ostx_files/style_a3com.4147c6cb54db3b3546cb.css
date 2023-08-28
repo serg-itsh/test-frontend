@@ -12,14 +12,16 @@ html {
 }
 .container {
   width: 100%;
-  padding-right: 4px;
-  padding-left: 4px;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1280px;
+ 
 }
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .container {
     max-width: 1080px;
   }
-}
+} */
 .container-fluid {
   width: 100%;
   padding-right: 4px;
@@ -1748,7 +1750,7 @@ body {
   margin: -40px auto 0;
   padding: 40px 0 1px;
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .main-wrapper .container {
     width: calc(100vw - 200px);
   }
@@ -1757,17 +1759,17 @@ body {
   .main-wrapper .container {
     width: calc(100% - 32px);
   }
-}
-.container {
+} */
+/* .container {
   width: calc(100% - 32px);
   margin-left: auto;
   margin-right: auto;
-}
-@media (min-width: 1024px) {
+} */
+/* @media (min-width: 1024px) {
   .container {
     width: calc(100% - 200px);
   }
-}
+} */
 .container-fluid {
   position: relative;
   padding: 0;

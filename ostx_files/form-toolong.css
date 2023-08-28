@@ -76,13 +76,13 @@
                     font-size: 12px;
                 }
 
-                .orderTypeButtonActive {
+                /* .orderTypeButtonActive {
                     background: yellow !important;
                     background-image: url(images/tick.png) !important;
                     background-repeat: no-repeat !important;
                     background-position: center bottom !important;
                     border: 2px solid red;
-                }
+                } */
 
                 .otFirst {
                     margin-right: 15px;
